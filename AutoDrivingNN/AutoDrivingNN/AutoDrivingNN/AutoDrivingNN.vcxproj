@@ -123,7 +123,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\Drawing.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Map.cpp" />
+    <ClCompile Include="src\Obstacle.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Drawing.h" />
+    <ClInclude Include="src\Map.h" />
+    <ClInclude Include="src\Obstacle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
